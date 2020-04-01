@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    padding: 20px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    display: inline;
+}
+.mypiks{
+    float: left;
+}
+.piks{
+    float: left;
+    height: 50px;
+    width: auto;
+}
+.tech {
+    float: right;
+}
+
+h3 {
+    padding: 15% 0;
+    text-align:center;
+    font-size: 38px;
+    text-shadow: 2px 2px 2px wheat;
+}
+
+.tech1{
+    background: url("img/5.jpeg") no-repeat top center;
+    min-height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.stop {
+    background-color: rgb(187, 248, 230);
+    min-height: 10%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tech2{
+    background: url("img/1.jpeg") no-repeat top center;
+    min-height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tech3 {
+    background: url("img/2.jpeg") no-repeat center center;
+    min-height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tech4 {
+    background: url("img/3.jpeg") no-repeat bottom center;
+    min-height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tech5 {
+    background: url("img/4.jpeg") no-repeat top center;
+    min-height: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    font-size:16px;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 3px solid black;
+    width: 80%;
+    margin:auto;
+}
+footer a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+    nav > h1{
+      height: 60px;
+      font-size: 1rem;
+      line-height: 60px;
+      padding: 0 20px;
+    }
+
+    .tech1 > h3 {
+        font-size: 2.2rem;
+    }
+     img {
+      left: -80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  
+  nav > h1{
+    height: 50px;
+    font-size: .9rem;
+    line-height: 50px;
+    padding: 0 15px;
+  }
+  
+  img {
+    left: -60px;
+  }
+}
